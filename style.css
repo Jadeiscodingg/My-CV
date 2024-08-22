@@ -1,0 +1,66 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+header {
+    background: #333;
+    color: #f5e5c5;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #f2cea2 1px solid;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+nav {
+    text-align: center;
+    margin-top: 10x;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+    font-weight: bold;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    text-align: center;
+}
+.main-content img {
+    border-radius: 0%;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.about, .contact, .experience, .skills {
+    background: #fff8df;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(15, 13, 13);
+    width: 80%;
+    max-width: 600px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+}
