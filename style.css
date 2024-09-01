@@ -1,10 +1,12 @@
 .body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
     color: #333;
     background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
+
+/* Container Settings */
 .container {
     width: 90%;
     margin: 0 auto;
@@ -28,10 +30,8 @@ nav {
     margin-top: 10x;
 }
 nav a {
-    color: #fff;
-    text-decoration: none;
     padding: 0 15px;
-    font-weight: bold;
+    margin: 0 5px; /* Added margin for constant spacing */
 }
 .main-content {
     display: flex;
@@ -46,21 +46,32 @@ nav a {
     height: 150px;
     float: left;
 }
+
 .about, .contact, .experience, .skills {
     background: #fff8df;
     padding: 20px;
-    margin: 20px;
+    margin: 20px auto;
     border-radius: 8px;
     box-shadow: 0 0 10px rgb(15, 13, 13);
     width: 80%;
     max-width: 600px;
+}
+* {
+    box-sizing: border-box;
+}
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .main-content {
+        margin: 10px 0;
+    }
 }
 footer {
     text-align: center;
     padding: 10px;
     background: #333;
     color: #fff;
-    position: fixed;
     bottom: 0;
     width:100%;
 }
